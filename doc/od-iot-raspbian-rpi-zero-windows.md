@@ -1,7 +1,7 @@
-![Ionoid IoT](https://github.com/opendevices/iot.apps/blob/master/doc/img/IonoidIoTsmall.png)
+![Ionoid IoT](img/IonoidIoTsmall.png)
 # Installing  Raspbian on Raspberry Pi ZERO W, for Windows user.
 
-![Raspberry Pi Zero W](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspberryPiZeroheader.png)
+![Raspberry Pi Zero W](img/RaspberryPiZeroheader.png)
 
 ---
 This guide will show you step by step, how to install a Raspbian OS  on
@@ -25,33 +25,33 @@ Software:
 ## 1. Downloading Raspbian.
  - Download the Rasbpian image, you can find the latest version here  [Raspbian image](https://www.raspberrypi.org/downloads/raspbian/).
 
- ![Download raspbian windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/RaspbianDownloadWindows2.png)
+ ![Download raspbian windows](img/RaspbianDownloadWindows2.png)
 
 ## 2. Copy Raspbian to the MicroSD card
  The simplest and easiest way to copy the Raspbian OS to your MicroSD card is, Etcher software.It's work well on Windows.
 
  - Download a Windows version of  Etcher software, from  [Etcher](https://etcher.io/)
 
- ![Download Etcher](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherDownloadWindows2.png)
+ ![Download Etcher](img/EtcherDownloadWindows2.png)
 
  - Unzip it.
  - Install Etcher on your Windows system.
 
- ![Etcher Install Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherInstallWindows.png)
+ ![Etcher Install Windows](img/EtcherInstallWindows.png)
 
  - Insert the MicroSD card into the card reader.
 
- ![MicroSD Reader](https://github.com/opendevices/iot.apps/blob/master/doc/img/SDcardReader.jpg)
+ ![MicroSD Reader](img/SDcardReader.jpg)
 
   - Execute Etcher.
   - Once Etcher open, browse and select the Raspbian image.
 
-  ![Open Etcher](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherSelectWindows.png)
+  ![Open Etcher](img/EtcherSelectWindows.png)
 
   - Select the MicroSD card that you which to install Raspbian on.
   - Click on the flash button.
 
-  ![etcher flash](https://github.com/opendevices/iot.apps/blob/master/doc/img/EtcherFlashWindows.png)
+  ![etcher flash](img/EtcherFlashWindows.png)
 
 Once it's finished  Etcher **unmount** automatically the MicroSD card.
 
@@ -62,7 +62,7 @@ Once it's finished  Etcher **unmount** automatically the MicroSD card.
   - Reinsert the Micro SD card into computer SD card reader.
   - Observe that a *boot* partition will mount automatically.
 
-  ![Boot auto](https://github.com/opendevices/iot.apps/blob/master/doc/img/BootPartWindows.png)
+  ![Boot auto](img/BootPartWindows.png)
 
   - open **notepad** and copy/paste the following lines
 
@@ -85,7 +85,7 @@ or if you can put the MicroSD Card on Linux, you will have the
 **rootfs** partition then save it as **wpa_supplicant.conf** under **rootfs** partition under **/etc/wpa_supplicant/**
 
 
- ![WiFi Config Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/ConfigWifiWindows.png)
+ ![WiFi Config Windows](img/ConfigWifiWindows.png)
 
 
 ## 4. Enable ssh
@@ -94,7 +94,7 @@ or if you can put the MicroSD Card on Linux, you will have the
  - Click on **File** and then **Save As..**, a dialog box is displayed.
  - Type an opening quotation mark, ssh and then closing quotation mark. That way **"ssh"**.    
 
-![SSH Config Windows](https://github.com/opendevices/iot.apps/blob/master/doc/img/ConfigSshWindows.png)
+![SSH Config Windows](img/ConfigSshWindows.png)
 
  - Click on the SD card **boot** partition to save file on it.
  - Click the **Save** button.
