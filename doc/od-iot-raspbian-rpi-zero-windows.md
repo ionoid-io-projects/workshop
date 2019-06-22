@@ -51,10 +51,124 @@ Software:
   - Select the MicroSD card that you which to install Raspbian on.
   - Click on the flash button.
 
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
   ![etcher flash](img/EtcherFlashWindows.png)
 
-Once it's finished  Etcher **unmount** automatically the MicroSD card.
+  ![Open Etcher](img/EtcherSelectWindows.png)
+  ![Open Etcher](img/EtcherSelectWindows.png)
 
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
+
+  ![Open Etcher](img/EtcherSelectWindows.png)
+
+  - Select the MicroSD card that you which to install Raspbian on.
+  - Click on the flash button.
+
+  ![etcher flash](img/EtcherFlashWindows.png)
 ## 3. Configure Wifi
   To configure WiFi connection on Rapsberry Pi Zero W do
 
