@@ -169,7 +169,32 @@ Software:
   - Click on the flash button.
 
   ![etcher flash](img/EtcherFlashWindows.png)
+
 ## 3. Configure Wifi
+
+To prevent futur probleme we'll activate file extension display on windows by following 
+this instructions:
+
+### On windows 8 and 10
+- After opening a file browser click the “View” tab on the ribbon. 
+- Activate the “File name extensions” box in the Show/hide section to toggle file extensions on or off. 
+
+File Explorer will remember this setting until you disable it in the future.
+
+![extension](img/win10.png)
+
+### For windows 7
+
+- After opening a file browser Click the “Organize” button on Windows Explorer’s toolbar and select “Folder and search options” to open it.
+- Click the “View” tab at the top of the Folder Options window. Disable the “Hide extensions for known file types” checkbox under Advanced settings.
+- Click “OK” to change your settings.
+
+![win7 file extension](img/win7.png)
+
+![win7 file extension](img/win7.2.png)
+
+
+
   To configure WiFi connection on Rapsberry Pi Zero W do
 
   - Remove the MicroSD card from the SD card reader.
@@ -195,11 +220,13 @@ Software:
  - Save the file as **wpa_supplicant.conf** under **boot** partition.
 
 
-or if you can put the MicroSD Card on Linux, you will have the
+### On linux
+
+By putting the MicroSD Card on Linux, you will have the
 **rootfs** partition then save it as **wpa_supplicant.conf** under **rootfs** partition under **/etc/wpa_supplicant/**
 
 
- ![WiFi Config Windows](img/ConfigWifiWindows.png)
+ <!-- ![WiFi Config Windows](img/ConfigWifiWindows.png) -->
 
 
 ## 4. Enable ssh
@@ -223,16 +250,53 @@ or if you can put the MicroSD Card on Linux, you will have the
 - To access to your Raspberry Pi , via your Windows computer you need a ssh client
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
-- Setup putty
-  * Host name : **raspberrypi.local**
-  * Port: **22**
-  * Default User Name: **pi**
-  * Default Password: **raspberry**
 
 
-- Complete ssh command to connect:
+To connect to your device you must first get device ip, there are more than onw way to do it, the easiest
+one is to install mobile app **Fing**, The Fing app is a free network scanner for smartphones.
+
+![the fing](img/fing.png)
+
+Your phone and your Raspberry Pi have to be on the same network.
+
+So connect your phone to the correct wireless network (same ssid you used in wpa_supplicant)
+- Start the app on your phone
+- click on refresh button
+- all connected ip will be displayed
+- search for the one with raspberry pi icon
+
+Congratulation you have your ip
+
+To explore more way please visit [get ip address of raspberry pi](https://www.raspberrypi.org/documentation/remote-access/ip-address.md)
+
+### Using putty
+
+Suppose your raspberry pi ip is **192.168.1.9** the result on putty will be as following
+
+**pi** are the default user for rasbian 
+
+![first step](img/putty.png)
+
+After clicking on **Open** and you'll see a new windows asking you to trust the host you're going to connect to
+
+Just click yes (we trust our Raspberry pi)
+
+![key](img/putty1.1.png)
+
+a new terminal window will open ask you the password which is **raspberry**
+
+Dont worry if you dont see it when you type it, just type it and click Enter on your keyboard
+
+![next step](img/putty2.png)
+
+Congratulation if you see the next terminal window, you're connected to your device
+
+![final step](img/putty3.png)
+
+
+- Complete ssh command to connect in linux based os:
 
 ```bash
-$ ssh pi@raspberrypi.local
+$ ssh pi@192.168.1.9
 ```
 
