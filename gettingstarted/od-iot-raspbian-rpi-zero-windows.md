@@ -101,6 +101,7 @@ File Explorer will remember this setting until you disable it in the future.
 ```
 
  - Replace **SSID** with your Wifi ID and **PASSWORD** with your Wifi password.
+ - As key_mgmt use WPA-PSK as it is, it manage wpa and wpa2 protocol.
  - Save the file as **wpa_supplicant.conf** under **boot** partition.
 
 
