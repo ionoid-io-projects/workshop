@@ -12,11 +12,11 @@ Flash the MicroSD Card using the following guides, no need to configure
 the Wireless or anything else.
 
 * [Installing Raspbian on Raspberry Pi - Windows
-Users](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md)
+Users](od-iot-raspbian-rpi-zero-windows.md)
 
 
 * [Installing Raspbian on Raspberry Pi -
-Linux Users](https://github.com/opendevices/iot.apps/blob/master/doc/od-iot-install-raspbian-linux-gui.md)
+Linux Users](doc/od-iot-install-raspbian-linux-gui.md)
 
 
 * [Raspberry Foundation Installation
@@ -144,13 +144,7 @@ Card of the Raspbian OS.
 - To access to your Raspberry Pi , via your Windows computer you need a ssh client
   like putty [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
-- Setup putty
-  * Host name : **raspberrypi.local** or the hostname that you entered
-  in **5.1 Advanced Configuration** in **config.json**
-  * Port: **22**
-  * Default User Name: **pi**
-  * Default Password: **raspberry**
-
+Follow the link to know how to do it [Connect to raspberry pi using Putty](https://github.com/ionoid-io-projects/workshop/blob/master/gettingstarted/od-iot-raspbian-rpi-zero-windows.md#5-first-boot)
 
 
 - On Linux you need `ssh`
